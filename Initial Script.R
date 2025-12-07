@@ -1,4 +1,3 @@
-
 #Importing the dataset DS-238
 library(readr)
 Churn_Modeling <- read_csv("Churn Modeling.csv")
@@ -30,6 +29,7 @@ curve(dnorm(x, mean = mean(Churn_Modeling$Balance), sd = sd(Churn_Modeling$Balan
       col = "red",
       lwd = 2,
       add = TRUE)
+
 
 
 
